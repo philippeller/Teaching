@@ -16,3 +16,4 @@ File | Content
 [regression.ipynb](https://github.com/philippeller/Teaching/blob/master/regression.ipynb) | Regression using various algorithms applied to the Boston housing dataset
 [deep_learning.ipynb](https://github.com/philippeller/Teaching/blob/master/deep_learning.ipynb) | Various Deep Learning Models applied to the MNIST dataset
 [variational_autoencoder.ipynb](https://github.com/philippeller/Teaching/blob/master/variational_autoencoder.ipynb) | Variational auto encoder and generator
+[Exoplanet.ipynb](https://github.com/philippeller/Teaching/blob/master/Exoplanet.ipynb) | Data Analysis example for an Exoplanet Analysis
