@@ -1,2 +1,41 @@
-*.png
+# Ignore precompiled packages
+*.py[cod]
+
+# Ignore cached
+
+# OSX finder files
+.DS_Store
+
+# Ignore auto-generated libraries and files
+_*.so
+*_wrap.cxx
+*_wrap.cpp
+BargerPropagator.py
+GridPropagator.py
+*.o
+gaussians.c
+gaussians.so
+__pycache__
+.eggs
+
+# Packages
+dist
+build
+pisa.egg-info
+
+# Common editor remnants
+*~
+*.swp
+
+# Unison backups
+.backup
+
+# Plots
 *.pdf
+*.png
+*.gif
+*.jpg
+*.png.*
+
+# IPython notebook backups
+.ipynb_checkpoints

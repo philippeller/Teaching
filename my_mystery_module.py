@@ -39,11 +39,12 @@ def kmeans(X, n, n_iter=100, centroids=None):
         # scale to roughly match the data
         centroids *= np.std(X, axis=0)
         centroids += np.mean(X, axis=0)
-            
+    labels = assign(centroids)
+        
     # iterate
     for i in range(n_iter):
-        labels = assign(centroids)
         centroids = get_centroids(labels)
+        labels = assign(centroids)
 
     return centroids, labels
 
